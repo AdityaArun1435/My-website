@@ -1,0 +1,40 @@
+body{
+    background-image: url(Caribbean-beach.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aquamarine;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item{
+
+    position:relative;
+
+}
+
+.item img{
+    padding:40px;
+}
+h1{
+    font-family: "lucida handwriting";
+    font-size: xx-large;
+    color: brown;
+}
+
+.box1{
+
+    background-color:rgb(108, 187, 240);
+    display:flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    font-family: papyrus;
+    margin-right: 30px;
+
+}
